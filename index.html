@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/93d6380386.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <nav class="navigation">
+      <ul class="navHead">
+        <li>
+          <a href="#"
+            ><svg
+              id="logo"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 18.36"
+              fill="#000"
+            >
+              <path
+                d="M-39.27,52.22l-.35,1.4a1.05,1.05,0,0,1-1.22.77,5.21,5.21,0,0,0-1-.11,2.77,2.77,0,0,0-2.83,3.09v6.34h-2.59V52.2h2.57v1.3a4,4,0,0,1,3.45-1.6,5.33,5.33,0,0,1,2,.32"
+                transform="translate(47.29 -45.36)"
+              />
+              <path
+                d="M-32,54.48v9.24h-2.61V54.48h-1.8a1,1,0,0,1-1-.94V52.2h2.77V49.51c0-2.31,1.2-4.15,4-4.15a6.3,6.3,0,0,1,3.31.87l-.53,2.12a6.51,6.51,0,0,0-2.61-.61c-1,0-1.55.63-1.55,1.78V52.2h4.07v2.29Z"
+                transform="translate(47.29 -45.36)"
+              />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-search"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-history"></i></a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#"><i class="fas fa-home"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-compass"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-address-book"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-desktop"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-user-friends"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-folder"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-square"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-book-open"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-chart-bar"></i></a>
+        </li>
+      </ul>
+      <a href="#" id="expandNav"><i class="fas fa-angle-double-right"></i></a>
+    </nav>
+    <!-- Container -->
+    <div class="container">
+      <!-- Badge Card -->
+      <div class="card"  id="badge">
+        <div class=cardContent>
+        <div class="cardHead">
+          <h2>Badge Output</h2>
+          <!-- modal button -->
+          <i id="modalBtn" class="fas fa-pencil-alt"></i>
+        </div>
+        <ul class="userInfo">
+          <li><strong>First Name:</strong><span class="textArea">Allison</span></li>
+          <li><strong>Preferred First Name for Badge:</strong><span class="textArea">Al</span></li>
+          <li><strong>Last Name:</strong><span class="textArea">Profitt</span></li>
+          <li><strong>Company:</strong><span class="textArea">Bio-IT World</span></li>
+          <li><strong>Onsite - Badge Holders:</strong><span class="textArea">JVA</span></li>
+          <li><strong>Onsite - Aux:</strong><span class="textArea">1</span></li>
+          <li>
+            <strong>Check-in:</strong><datetime><span class='textArea'>09/16/16 7:51 AM</span></datetime>
+            <i id="deleteBadge" class="fas fa-trash"></i>
+            <i id="printBadge" class="fas fa-print"></i>
+          </li>
+        </ul>
+      </div>
+      </div>
+
+      <!-- Calendar Card -->
+      <div class="card" id="calendar">
+        <div class="cardHead">
+          <h2>Sunday</h2>
+          <p class='date'>July 15, 2018</p>
+        </div>
+        <div class="schedule">
+
+          <div class="scheduleContent">
+            <span class="time">07:00 AM</span
+              ><a href="#" class="findSession">Find Sessions.</a>
+            </div>
+            <div class="scheduleContent">
+              <span class="time">08:00 AM</span> <p class='inline'>BR1058 Exchange Search and
+                knowledge discovery until Storrage Technologies <br />
+                08:00 AM - 08:45 AM</p>
+                <i class="fas fa-pencil-alt"></i>
+                <i class="fas fa-trash"></i>
+            </div>      
+        </div>
+        <!-- <ul class="classInfo">
+          <li class="schedule">
+            <span class="time">07:00 AM</span
+            ><a href="#" class="findSession"> Find Sessions.</a>
+          </li>
+          <li class="schedule">
+            <span class="time">08:00 AM</span> BR1058 Exchange Search and
+            knowledge discovery until Storrage Technologies <br />
+            08:00 AM - 08:45 AM
+            
+              <i class="fas fa-pencil-alt"></i>
+            
+            <i class="fas fa-trash"></i>
+          </li>
+          <li class="schedule">
+            <span class="time">09:00 AM</span>
+            <a href="#" class="findSession">Find Sessions.</a>
+          </li>
+          <li class="schedule">
+            <span class="time">10:00 AM</span> BR1063 Write Data virtualization
+            by Hadoop <br />10:00 AM - 10:45 AM
+            
+              <i class="fas fa-pencil-alt"></i>
+            
+            <i class="fas fa-trash"></i>
+          </li>
+          <li class="schedule">
+            <span class="time">11:00 AM</span>
+            <a href="#" class="findSession">Find Sessions.</a>
+          </li>
+        </ul> -->
+      </div>
+
+      <!-- Table -->
+      <div class="fileTable">
+        <table class="card">
+          <div class="overflow">
+          <tr class="tablehead">
+            <th><input type="checkbox" onchange="selectAll(this)" /></th>
+            <th>FILE NAME</th>
+            <th>FILE TYPE</th>
+            <th>FILE CREATE DATE</th>
+            <th>PUBLISHED STATUS</th>
+            <th>SESSION NAME</th>
+            <th>SESSION CODE</th>
+            <th>SESSION STATUS</th>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="isChecked" /></td>
+            <td>
+              New Mircrosoft PowerPoint Presntation_1504734033671001aMvB.pptx
+            </td>
+            <td>Presentation</td>
+            <td><datetime>September 06, 2017 | 02:40 PM</datetime></td>
+            <td>Not Published</td>
+            <td>Reject Data integration until Column-oriented databases</td>
+            <td>BR1000</td>
+            <td>Accepted</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="isChecked" /></td>
+            <td>Portugal (2)_15121542334140018toT.pptx</td>
+            <td>Presentation</td>
+            <td><datetime>December 01, 2017 | 10:50 AM</datetime></td>
+            <td>Not Published</td>
+            <td>Promise Data virtualization for Hadoop</td>
+            <td>BR1003</td>
+            <td>Accepted</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="isChecked" /></td>
+            <td>Portugal (2)_15121542334140018toT_151216217826001wXbS.pptx</td>
+            <td>Presentation</td>
+            <td><datetime>December 01, 2017 | 01:02 PM</datetime></td>
+            <td>Not Published</td>
+            <td>Promise Data virtualization for Hadoop</td>
+            <td>BR1003</td>
+            <td>Accepted</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="isChecked" /></td>
+            <td>
+              New Mircrosoft PowerPoint Presntation_1504734033671001aMvB.pptx
+            </td>
+            <td>Presentation</td>
+            <td><datetime>September 06, 2017 | 02:40 PM</datetime></td>
+            <td>Not Published</td>
+            <td>Reject Data integration until Column-oriented databases</td>
+            <td>BR1000</td>
+            <td>Accepted</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="isChecked" /></td>
+            <td>Portugal (2)_15121542334140018toT.pptx</td>
+            <td>Presentation</td>
+            <td><datetime>December 01, 2017 | 10:50 AM</datetime></td>
+            <td>Not Published</td>
+            <td>Promise Data virtualization for Hadoop</td>
+            <td>BR1003</td>
+            <td>Accepted</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="isChecked" /></td>
+            <td>Portugal (2)_15121542334140018toT_151216217826001wXbS.pptx</td>
+            <td>Presentation</td>
+            <td><datetime>December 01, 2017 | 01:02 PM</datetime></td>
+            <td>Not Published</td>
+            <td>Promise Data virtualization for Hadoop</td>
+            <td>BR1003</td>
+            <td>Accepted</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="isChecked" /></td>
+            <td>Portugal (2)_15121542334140018toT_151216217826001wXbS.pptx</td>
+            <td>Presentation</td>
+            <td><datetime>December 01, 2017 | 01:02 PM</datetime></td>
+            <td>Not Published</td>
+            <td>Promise Data virtualization for Hadoop</td>
+            <td>BR1003</td>
+            <td>Accepted</td>
+          </tr>
+        </table>
+      </div>
+      </div>
+
+      <!-- Modal -->
+      <div id="simpleModal" class="modal">
+        <div class="modalContent">
+          <div class="modalHeader">
+            <h3>Modal Header</h3>
+            
+              <i class="far fa-window-close closeBtn"></i>
+            
+          </div>
+          <ul class="modalInfo">
+            <li><strong>First Name:</strong>Allison</li>
+            <li><strong>Preferred First Name for Badge:</strong>Al</li>
+            <li><strong>Last Name:</strong>Profitt</li>
+            <li><strong>Company:</strong>Bio-IT World</li>
+            <li><strong>Onsite - Badge Holders:</strong>JVA</li>
+            <li><strong>Onsite - Aux:</strong>1</li>
+          </ul>
+          <!-- <div class="modalFooter">
+            
+          </div> -->
+        </div>
+      </div>
+
+      <!-- Overlay -->
+      <div id="promptOverlay" class="modal">
+        <div class="modalContent">
+          <div class="modalInfo">  
+            <p>Are you sure you want to delete?</p>
+            <button id="yesDel">Yes</button>
+            <button id="noDel">No</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JS -->
+    <script src="./script.js"></script>
+  </body>
+</html>

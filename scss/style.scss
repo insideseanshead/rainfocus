@@ -1,0 +1,107 @@
+@import "config";
+@import "nav";
+@import "modal";
+@import "mobile";
+
+.container {
+  max-width: 1200px;
+  min-width: 600px;
+  margin: 10px 20px 20px 70px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: $light-color;
+  margin: 10px;
+  flex-grow: 1;
+  font-size: 12px;
+
+  .cardHead {
+    border-bottom: 1px solid $secondary-color;
+    display: flex;
+
+    h2 {
+      padding:10px;
+    }
+  }
+
+  ul {
+    margin: 20px;
+  }
+
+  li {
+    margin: 20px 0;
+    padding-bottom: 10px;
+  }
+
+  button {
+    float:right
+  }
+
+  i {
+    color: $secondary-color;
+  }
+
+  a{
+    color: $primary-color;
+    text-decoration: none;
+  }
+}
+
+#calendar {
+  
+
+  .date{
+    margin: auto 0;
+  }
+
+  .scheduleContent {
+    margin: 10px 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $secondary-color;
+
+
+    .time{
+      padding: 0 10px 0 0;
+      border-right: 2px solid $red-hue;
+      font-weight: bold;
+    }
+
+    p {
+      display: inline-block;
+    }
+  }
+
+  li {
+    border-bottom: 1px solid $secondary-color;
+  }
+
+  i{
+    color:$primary-color;
+  }
+}
+
+table {
+  background-color: $light-color;
+  border-collapse: collapse;
+  display: block;
+  overflow-x: scroll;
+
+  tr {
+    border-bottom: 1pt solid $secondary-color;
+  }
+
+  th {
+    color: $primary-color;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 10px;
+    border-bottom: 1pt solid $primary-color;
+  }
+
+  td {
+    padding: 10px;
+  }
+}
